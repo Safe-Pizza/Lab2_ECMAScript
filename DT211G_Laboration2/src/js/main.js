@@ -1,7 +1,11 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", fetchData());
+//ladda DOM
+document.addEventListener("DOMContentLoaded", () => {
+    fetchData();
+});
 
+//hämta JSON-data
 async function fetchData() {
     try {
     const response = await fetch(
