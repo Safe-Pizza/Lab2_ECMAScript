@@ -28,7 +28,7 @@ table {
     background-color: rgb(42, 40, 40);
     width: 100%;
     text-align: left;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     padding: 1em;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),
