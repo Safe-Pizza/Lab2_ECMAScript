@@ -1,5 +1,5 @@
 body {
-    background-color: navy;
+    background-color: rgb(63, 61, 61);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 2em;
@@ -8,4 +8,14 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+input[type= "text"] {
+    width: 100%;
+    padding: 1.2em;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.5em;
+    border: 1px solid white;
 }
